@@ -188,6 +188,7 @@ html{
     margin-top: 10%;
 
 }
+
 .thumbnail-edu{
     width: 90%;
     margin-top: 5%;
@@ -209,6 +210,11 @@ html{
 
 .subh{
     color: rgb(122, 6, 6);
+}
+.sub-skill{
+    margin: 10px;
+
+
 }
 .form{
     
