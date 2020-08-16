@@ -209,6 +209,28 @@ html{
 .contact{
     background-color: rgb(237, 237, 237);
     height: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+
+
+.row {
+    display: flex;
+  }
+.col {
+    flex: 4%;
+    margin-bottom: 0.5%;
+    margin-left: 24%;
+  }
+.linkedin img{
+    width: 10%;
+    border-radius: 52%;
+}
+.github img{
+    width: 10%;
+    border-radius: 52%;
 }
 .text-center{
     padding-top: 20px;
@@ -217,6 +239,7 @@ html{
     font-family: 'Ubuntu', sans-serif ;
     font-size: 30px;
 }
+
 
 .subh{
     color: rgb(122, 6, 6);
@@ -263,6 +286,14 @@ html{
     height: 4px;
     margin: 5px;
 }
+.foot{
+    color: white;
+    text-align: center;
+    height: 30px;
+
+    background-color: black;
+}
+
 
 
 @media only screen and (max-width: 1140px){
@@ -308,7 +339,7 @@ html{
     .button{
         text-align: center;
     }
-    
-    
-    
+    .col {
+        width: 100%;
+      }
 }

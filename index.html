@@ -18,7 +18,7 @@
             <li><a href="#Contact"> Contact</a></li>
         </ul>
         <div class="rightNav v-class-resp">
-            <input type="text" name="search" id="search">
+            <input type="text" name="search" id="search"placeholder="Search here" >
             <button class="btn btn-sm">Search</button>
         </div>
         <div class="burger">
@@ -33,7 +33,7 @@
     <section class= "background firstSection" id="Home">
         <div class="box-main">
             <div class="firstHalf">
-                <p class="text-big txt-name" >Hi, I'm  Mohit Saroye</p>
+                <p class="text-big txt-name" >Hi, I'm Mohit Saroye</p>
                 <p class="text-small">Software Engineer  •  Web Developer </p>
                 <div class="button">
                     <button class="btn">Resume</button>
@@ -107,15 +107,32 @@
     </section>
     
     <section class="contact" id="Contact"> 
-        <h1 class="text-center"> Contact Me:</h1>
+        <h1 class="text-center "> Contact Me:</h1>
         <div class="form">
-            <input type="text" name ="name" id ="name" placeholder="Enter your Name">
-            <input type="text" name ="Phone" id ="Phone" placeholder="Enter your Phone">
-            <input type="text" name ="Email" id ="Email" placeholder="Enter your Email">
-            <button class="btn btn-dark"> Submit </button>
-        
+            <form action="sendform.php" method="post" name="congact-form" class="contact-box">
+                <input type="text" name ="name" id ="name" placeholder="Enter your Name">
+                <input type="text" name ="Phone" id ="Phone" placeholder="Enter your Phone">
+                <input type="text" name ="Email" id ="Email" placeholder="Enter your Email">
+                <input type="text" name ="Message" id ="Message" placeholder="Enter your Message">
+                <button class="btn btn-dark"> Submit </button>   
+             </form>
         </div>
+        <div class ="row"> 
+            <div class="col linkedin">
+                <a href="https://www.linkedin.com/in/saroyemohit/">
+                <img src="img/linkedin.png"alt="linkedIn" class="linked">
+            </a>
+            </div>
+            <div class ="col github"> 
+                <a href="https://github.com/saroye">
+                <img src="img/github.png"alt="gitHub" class="git">
+                </a>
+            </div>
+        </div>  
     </section>
     <script src="js/resp.js"></script>
 </body>
+<footer class="foot">
+    Copyright @ 2020 | Mohit Saroye
+</footer>
 </html>
