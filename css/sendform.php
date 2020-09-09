@@ -10,7 +10,6 @@ if(isset($_POST['Submit'])){
     $message= "Name: " .$name."\n"."Phone: "."\n". "Message is as follows: "."\n\n".$Message;
     $headers="From: ".$email;
     if(mail($to, $subject, $message, $headers)){
-
         echo "<h1> Thank you for your interest!"." ".$name.", I will reply you as soon as I recieve this message! <h1>";
     }
     else{
