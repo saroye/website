@@ -48,7 +48,6 @@ html{
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif ;
     color:white; 
-
 }
 .nav-list li a:hover{
     text-decoration: none;
@@ -213,8 +212,11 @@ html{
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
-    
+}
 
+.contact li{
+    margin: 3%;
+    display: inline;
 }
 
 
