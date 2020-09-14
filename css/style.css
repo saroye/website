@@ -186,7 +186,16 @@ html{
     border: 19px black;
     border-radius: 16px;
     margin-top: 16%;
-    }
+}
+.location{
+
+    padding-right: 40%;
+    margin-left: 250%;
+    display: inline;
+
+    padding-top: 1000%;
+    
+}
 .thumbnail-edu img{
     width: 199%;
 }
@@ -285,6 +294,7 @@ html{
 mail {
     font-size: 50%;
     display: inline;
+    padding: 10%;
 }
 
 
