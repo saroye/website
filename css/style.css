@@ -207,33 +207,36 @@ html{
     border: 13px black; 
 }
 .contact{
+    padding-bottom: 2%;
     background-color: rgb(237, 237, 237);
-    height: 50%;
+    height: 1000%;
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
 }
 
 .contact li{
-    margin: 8%;
+    justify-content: center;
+    margin: 3%;
     display: inline;
 }
 
-
-.row {
-    display: flex;
-  }
-.col {
-    flex: 4%;
-    margin-bottom: 0.5%;
-    margin-left: 24%;
-  }
-.linkedin img{
-    width: 10%;
+.social li {
+    display: inline;
+    margin: 1.5%;
+    justify-content: center;
+}
+.last{
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    background-color: black;
+}
+.linked{
+    width: 3%;
     border-radius: 52%;
 }
-.github img{
-    width: 10%;
+.git{
+    width: 3%;
     border-radius: 52%;
 }
 .text-center{
@@ -254,8 +257,8 @@ html{
 
 .contact-h-r{
     text-align: center;
-    padding-top: 0.5%;
-    padding-block-end: 1.4% ;
+    padding-top: 0.8%;
+    padding-block-end: 2.5% ;
     color: rgb(63, 61, 61);
     font-family: 'Ubuntu', sans-serif ;
     font-size: 25px;
@@ -265,6 +268,9 @@ html{
     color: rgb(122, 6, 6);
 }
 
+.skills2 li {
+    display: inline;
+}
 .sub-skill{
     margin-top: 10px;
 
@@ -304,12 +310,11 @@ mail {
 .foot{
     color: white;
     text-align: center;
-    height: 30px;
-
+    padding-top:    1.4%;
+    height: 85px;
+    font-family: 'Ubuntu', sans-serif ;
     background-color: black;
 }
-
-
 
 @media only screen and (max-width: 1140px){
     .nav-list{
