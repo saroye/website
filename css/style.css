@@ -120,7 +120,7 @@ html{
 }
 
 .text-big{
-    font-size: 47px;
+    font-size: 35px;
     padding: 10px 0px;
 }
 
@@ -155,26 +155,16 @@ html{
 }
 .section img {
     width: 153%;
-    border:  2px solid white;
     border-radius: 10px;
     display: block;
     margin: auto;
     padding: 10px;
 } 
-.paras{
-    padding: 0px 60px;
-}
-.section-left {
-    flex-direction: row-reverse;
-}
-.section-left img{
-    float: left;
-    width: 100%;
-}
+
 
 .sectionTag{
     padding: 16px 0px;
-   
+    margin-left: -60%;
     font-family: 'Ubuntu', sans-serif ;
 }
 .sectionSubTag{
@@ -297,9 +287,9 @@ mail {
 
 
 .btn-dark{
-    color: black;
+    color: rgb(172, 133, 133);
     border-radius: 4px;
-    border-color: grey;
+    border-color: rgb(148, 0, 0);
 }
 
 .burger{
@@ -322,6 +312,122 @@ mail {
     height: 85px;
     font-family: 'Ubuntu', sans-serif ;
     background-color: black;
+}
+label { 
+    display: block;
+}
+.eduu{
+    left: 100px;
+}
+.collapse{
+    margin-bottom: 1%;
+}
+.accordion{
+    width: 210%;
+    margin-left: -60%;
+    margin-bottom: 10%;
+    font-size: 120%;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif ;
+}
+
+.acc_label, .acc_content{
+    padding: 12px 20px;
+}
+.acc_label {
+    display: block;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s ;
+}
+
+.acc_label:hover{
+    background: rgba(0, 0,0, 0.1);
+}
+
+.acc_label::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+     background-size: contain;
+    transition: transform 0.4s;
+}
+.acc_content{
+    background-color: seashell;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+
+}
+.acc_input{
+    display: none;
+}
+
+.acc_input:checked ~ .acc_content{
+    display: block;
+}
+
+.acc_input:checked ~ .acc_label::after {
+    transform: translateY(-50%) rotate(0.5turn);
+}
+
+.lang img{
+    display: block;
+    margin-left: -60%;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+    width: 90%;
+    height: 90%;
+}
+.frames img{
+    display: block;
+    margin-left: 45%;
+    margin-top: -68%;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+    width: 100%;
+    height: 110%;
+}
+
+.frontend img{
+    display: block;
+    width: 90%;
+    height: 300px;
+    margin-top: 15%;
+    margin-left: -60%;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+}
+
+.skill_main{
+    width: 100%;
+    height: 100%;
+}
+.frames{
+    height: 120px;
+    width: 80px;
+}
+.tools img{
+    display: block;
+    width: 100%;
+    margin-top: -61%;
+    margin-left: 45%;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+}
+
+.paras{
+    width: 50%;
+    padding: 0px 60px;
 }
 
 @media only screen and (max-width: 1140px){

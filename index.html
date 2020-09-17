@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
+
     <title>Mohit Saroye</title>
 </head>
+
 <body>
     <nav class="navbar background h-nav-resp">
         <ul class="nav-list v-class-resp">
-            <div class="logo"><img src="img/img.jpeg" alt="logo" >
-                </div>
-            <li><a href="#Home" > Home</a></li>
+            <div class="logo"><img src="img/img.jpeg" alt="logo">
+            </div>
+            <li><a href="#Home"> Home</a></li>
             <li><a href="#Education"> Education</a></li>
             <li><a href="#Skills"> Skills</a></li>
-            <li><a href="#About"> About</a></li>
+            <li><a href="#Experience"> Experience</a></li>
             <li><a href="#Contact"> Contact</a></li>
         </ul>
         <div class="rightNav v-class-resp">
-            <input type="text" name="search" id="search"placeholder="Search here" >
+            <input type="text" name="search" id="search" placeholder="Search here">
             <button class="btn btn-sm">Search</button>
         </div>
         <div class="burger">
@@ -26,69 +31,108 @@
             <div class="line"></div>
             <div class="line"></div>
         </div>
-        
+
 
     </nav>
 
-    <section class= "background firstSection" id="Home">
+    <section class="background firstSection" id="Home">
         <div class="box-main">
             <div class="firstHalf">
-                <p class="text-big txt-name" >Hi, I'm Mohit Saroye</p>
-                <p class="text-small">Software Engineer  •  Web Developer </p>
+                <p class="text-big txt-name">Hi, I'm <a style="color: rgb(125, 177, 224);" >Mohit Saroye</a>! </p>
+                <p class="text-small">Software Engineer • Web Developer </p>
                 <div class="button">
                     <a href="https://drive.google.com/file/d/1zHfpZJ0H3XqUlbX16s5aLLDtkTVRabcl/view?usp=sharing">
-                    <button class="btn"> Resume</button>
-                    </a>
-                    <a href="#Lets Build!">
-                        <button class="btn">Lets Build!</button>
-                    </a>
-                    
+                        <button class="btn"> Resume</button></a>
+                    <a href="#Lets Build!"> <button class="btn">Lets Build!</button></a>
                 </div>
-
             </div>
-
-            <div class="secondHalf">
-                <img src="img/test.png" alt="laptop">
-            </div>
+            <div class="secondHalf"><img src="img/test.png" alt="laptop"></div>
         </div>
     </section>
-
     <section class="section">
         <div class="paras">
-        <p class="sectionTag text-big" id="Education">Education and Background</p>
-        <h3 class="subh">Iowa State University, Ames IA</h3>
-
-        <!-- <div class="accordion">
-            <div>
-                <input type="radio" name="Education" id="Major" class="acc_input">
-                <label for="Major" class="acc_input">Major</label>
+            <p class="sectionTag text-big eduu" id="Education">Education and Background</p>
+            <!-- <h3 class="subh">Iowa State University, Ames IA</h3> -->
+            <div class="accordion">
+                <div class="collapse">
+                    <input type="checkbox" name="Education1" id="Major1" class="acc_input">
+                    <label for="Major1" class="acc_label"
+                        style="color: rgb(245, 244, 243); background-color: rgb(126, 37, 37);">Bachelor's of
+                        Science</label>
+                    <div class="acc_content">
+                        <ul style="margin-left: 4%;">
+                            <li>Iowa State University, B.Sc. in Computer Science, Class of 2020. </li>
+                            <li>Active member of Computer Science and Engineer Club.</li>
+                            <li>Participated in Hackathon, HACK ISU.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse">
+                    <input type="checkbox" name="Education2" id="HighSchool" class="acc_input">
+                    <label for="HighSchool" class="acc_label"
+                        style="color: rgb(245, 244, 243); background-color: rgb(126, 37, 37);">High School
+                        Education</label>
+                    <div class="acc_content">
+                        <ul style="margin-left: 4%;">
+                            <li>MGN Public School, Science Field.</li>
+                            <li>Achievement Award: Award for Academic Excellence.</li>
+                            <li>Represented School for Regional Soccer Tournamanet.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <input type="checkbox" name="Education2" id="Major3" class="acc_input">
+                    <label for="Major3" class="acc_label"
+                        style="color: rgb(245, 244, 243); background-color: rgb(126, 37, 37);">Autodidact Skills
+                    </label>
+                    <div class="acc_content">
+                        <p>
+                        <ul style="margin-left: 4%;">
+                            <li> Learning various new Technologies such as: BlockChain, Angular, Kotlin, and Node.JS.
+                            </li>
+                            <li> Certified by Lynda in: HTML, MySQL, CMS, etc.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <input type="radio/checkbox" name="Education" id="edu">
-            </div>
-            <div>
-                <input type="radio/checkbox" name="Education" id="edu">
-            </div>
-        </div> -->
-
+            <!-- 
         <p class="sectionSubTag text-small"> I am an Iowa State University alumni. ISU has gave me a great exposure 
             to scale and diversity of opportunity. Spending four years of fast paced wokr program had 
             Graduated with Bachelor's Degree in Computer Science. 
             Interested in software development, front/back-end development. Seeking a full time opportunity to help me grow as a developer. 
             Meticulous & knowledgeable professional with experience in product development using Java technologies, 
             including Spring web API and proficiency in Object Oriented Programming principles and an attitude 
-            to deliver with a working exposure to agile methodologies for software development. </p>
+            to deliver with a working exposure to agile methodologies for software development. </p> 
     </div>
         <div class="thumbnail-edu">
             <img src="img/0.jpg" alt="sample image" class="imgFluid">
-        </div>
+        </div> -->
     </section>
 
 
     <section class="section section-left">
         <div class="paras">
-        <p class="sectionTag text-big" id="Skills"> Skills and Work Experience  </p>
-       <!--<div class="langs">
+            <p class="sectionTag text-big" id="Skills"> Skills </p>
+
+            <div class="skill_main">
+                <div class="lang" style="display: inline">
+                    <img src="img/lang.png" alt="langs" height="100" width="70">
+                </div>
+                <div class="frames" style="display: inline">
+                    <img src="img/frameworks.png" alt="frame" height="100" width="70">
+                </div>
+            </div>
+
+            <div class="frontend">
+                <img src="img/frontend.png" alt="">
+            </div>
+
+            <div class="tools">
+                <img src="img/tools.png" alt="">
+            </div>
+
+            <!--<div class="langs">
             <h1>>_ Languages:</h1>
             <ul class="skills">
                 <li> <img src="img/java.jpg" alt="lang"> </li>
@@ -98,62 +142,69 @@
                 <li> <img src="img/c.png" alt="lang" > </li>
                 <li> <img src="img/c++.png" alt="lang" > </li></ul>
 
-        </div>--> 
-        
-        <h3 class="subh">Languages: Pyhton, Java, AndroidStudios, CSS3/HTML/JavaScript</h3>
-        <h3 class="subh sub-skill">Frameworks / Platforms: Spring, React, Angular</h3>
-        <p class="sectionSubTag text-small"> I have developed algorithms based on best time efficiency for the given assignment, 
-            which included a quick sort algorithm for tracing the virus in a network of computers and how many computers 
-            it might have infected. I used hash mapping for every computer and put the connected computers in a linked list 
-            which was sorted by a quick sort algorithm. Then the infected computer was picked by the red-black tree and was made 
-            the parent of that tree to trace the virus.
-            I have worked with Object-Oriented Programming for most of my classes, 
-            which includes using tools like classes, abstract classes, 
-            interfaces, and polymorphism. two of the school projects 
-            required the use of Dijkstra's algorithm for the life cycle equilibrium in the jungle. 
-            In addition to that, we were given the interface of the code and divided into teamwork. 
-            We had to work in a group of 4, which was a fun, exciting, and new workspace everyone enjoyed. 
-            It helped me to experience the new environment of the workspace.  </p>
-    </div>
-        <div class="thumbnail sec-tb">
+        </div>
+
+            <h3 class="subh">Languages: Pyhton, Java, AndroidStudios, CSS3/HTML/JavaScript</h3>
+            <h3 class="subh sub-skill">Frameworks / Platforms: Spring, React, Angular</h3>
+            <p class="sectionSubTag text-small"> I have developed algorithms based on best time efficiency for the given
+                assignment,
+                which included a quick sort algorithm for tracing the virus in a network of computers and how many
+                computers
+                it might have infected. I used hash mapping for every computer and put the connected computers in a
+                linked list
+                which was sorted by a quick sort algorithm. Then the infected computer was picked by the red-black tree
+                and was made
+                the parent of that tree to trace the virus.
+                I have worked with Object-Oriented Programming for most of my classes,
+                which includes using tools like classes, abstract classes,
+                interfaces, and polymorphism. two of the school projects
+                required the use of Dijkstra's algorithm for the life cycle equilibrium in the jungle.
+                In addition to that, we were given the interface of the code and divided into teamwork.
+                We had to work in a group of 4, which was a fun, exciting, and new workspace everyone enjoyed.
+                It helped me to experience the new environment of the workspace. </p>-->
+        </div>
+        <!-- <div class="thumbnail sec-tb">
             <img src="img/skills.jpeg" alt="sample image" class="imgFluid">
         </div> -->
     </section>
     <section class="section">
         <div class="paras">
-        <p class="sectionTag text-big" id="About"> About Me </p>
-        <p class="sectionSubTag text-small">A skillful, result-driven Software Engineer, 
-            proven fast learner as seem through my education program that emphasizes
-            practicality over being theoretical. Equipped with strong analytical and 
-            problem-solving skills and be able to learn fast, proficient, and solve unexplored problems. 
-            Pursuing to improve my professional proficiency through experience and apply my interdisciplinary 
-            experience to new roles and challenges.  I have been practicing my coding skills on online platforms, for instance, 
-            Hackerrank and leetcode. Being able to have free time, 
-            I also started to learn more about web development and working on my personal website 
-        </p>
-    </div>
-        <div class="thumbnail tb-last">
-            <img src="img/me.JPG"alt="sample image" class="imgFluid">
+            <p class="sectionTag text-big" id="Experience"> Experience </p>
+            <!-- <p class="sectionSubTag text-small">A skillful, result-driven Software Engineer,
+                proven fast learner as seem through my education program that emphasizes
+                practicality over being theoretical. Equipped with strong analytical and
+                problem-solving skills and be able to learn fast, proficient, and solve unexplored problems.
+                Pursuing to improve my professional proficiency through experience and apply my interdisciplinary
+                experience to new roles and challenges. I have been practicing my coding skills on online platforms, for
+                instance,
+                Hackerrank and leetcode. Being able to have free time,
+                I also started to learn more about web development and working on my personal website
+            </p> -->
         </div>
+        <!-- <div class="thumbnail tb-last">
+            <img src="img/me.JPG" alt="sample image" class="imgFluid">
+        </div> -->
     </section>
-    
-    <section class="contact" id="Contact"> 
+
+    <section class="contact" id="Contact">
         <h3 class="contact-h"> Lets talk more!</h3>
         <h5 class="contact-h-r" id="Lets Build!">Reach me at:</h5>
         <div class="form">
-            <ul  class="mail" style="list-style: none;" >
+            <ul class="mail" style="list-style: none;">
                 <li> <a style="color:cornflowerblue">E: </a> saroyemohit@gmail.com</li>
-                <li><a style="color: cornflowerblue;">M: </a>  (702) 934-5639</li>
+                <li><a style="color: cornflowerblue;">M: </a> (702) 934-5639</li>
             </ul>
             <div class="loc">
-                <h3 class="location">     My Location:</h3>
-                <p class="goolge"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74749.67930346967!2d-115.
+                <h3 class="location"> My Location:</h3>
+                <p class="goolge"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74749.67930346967!2d-115.
                     25670541956639!3d36.08566454324787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80be
-                    b782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1600061364351!5m2!1sen!2sus" 
-                    width="1000" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    b782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1600061364351!5m2!1sen!2sus" width="1000"
+                        height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
                 </p>
             </div>
-            
+
         </div>
     </section>
     <script src="js/resp.js"></script>
@@ -162,12 +213,13 @@
     <ul class="social">
         <li>
             <a href="https://www.linkedin.com/in/saroyemohit/">
-            <img src="img/linkedin.png"alt="linkedIn" class="linked">
+                <img src="img/linkedin.png" alt="linkedIn" class="linked">
         </li>
         <a href="https://github.com/saroye">
-            <img src="img/github.png"alt="gitHub" class="git">
+            <img src="img/github.png" alt="gitHub" class="git">
     </ul>
 
-    <p class="last" style="color: white;">Copyright @ 2020  |  Mohit Saroye</p> 
+    <p class="last" style="color: white;">Copyright @ 2020 | Mohit Saroye</p>
 </footer>
+
 </html>
