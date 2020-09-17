@@ -120,7 +120,7 @@ html{
 }
 
 .text-big{
-    font-size: 35px;
+    font-size: 225%;
     padding: 10px 0px;
 }
 
@@ -183,6 +183,7 @@ html{
     display: inline;
 }
 .loc{
+    
     padding-top: 4%;
 }
 .thumbnail-edu img{
