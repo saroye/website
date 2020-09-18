@@ -154,10 +154,7 @@ html{
      background-size: cover;
 }
 .section img {
-    width: 153%;
-    border-radius: 10px;
     display: block;
-    margin: auto;
 } 
 
 
@@ -357,11 +354,8 @@ label {
 .acc_label::after{
     content: "";
     position: absolute;
-    top: 50%;
     right: 20px;
     transform: translateY(-50%);
-    width: 12px;
-    height: 6px;
     background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
      background-size: contain;
     transition: transform 0.4s ease;
@@ -396,7 +390,7 @@ label {
 .frames img{
     display: block;
     margin-left: 45%;
-    margin-top: -68%;
+    margin-top: -64%;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
     width: 100%;
@@ -424,7 +418,7 @@ label {
 .tools img{
     display: block;
     width: 100%;
-    margin-top: -61%;
+    margin-top: -57%;
     margin-left: 45%;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
@@ -455,7 +449,7 @@ label {
 
 .container .box{
     position: relative;
-    width: 350px;
+    width: 30%;
     height: 350px;
     background: rgb(141, 58, 58);
     margin: 10px;
@@ -473,8 +467,7 @@ label {
 {
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
-    border-radius: 3px;
+    box-shadow: 0 0 15px rgba(0, 0,0, 0.7);
 }
 .container .box .exp_box1
 {
@@ -540,17 +533,16 @@ label {
     position: absolute;
     top: 50%;
     justify-content: center;
-
     font-family: 'Ubuntu', sans-serif ;
     transform: translateY(-50%);
     text-align: center;
     padding: 15px;
-    color: #fff;
+    color: rgb(253, 253, 253);
 }
 .container .box .details .content h3{
     margin: 0;
-    margin-bottom: 240px;
-    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-left: 2px;
     font-size: 22px;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif ;
@@ -582,11 +574,12 @@ label {
         flex-direction: column-reverse;
         max-width: 60%;
     }
+
     .form{
         max-width: 50%;
     }
     .container { 
-        max-width: 80%; 
+        max-width: 300%;
     }
     .paras{
         max-width: 40%;
