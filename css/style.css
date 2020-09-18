@@ -582,17 +582,17 @@ label {
         flex-direction: column-reverse;
         max-width: 60%;
     }
-    .contact{
-
-    }
     .form{
         max-width: 50%;
     }
     .container { 
-        max-width: 90%; 
+        max-width: 80%; 
+    }
+    .paras{
+        max-width: 40%;
     }
     .loc{
-        max-width: 70%;
+        max-width: 50%;
     }
     #search{
         width: 100%;
