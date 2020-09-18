@@ -183,6 +183,8 @@ html{
 }
 .loc{
     
+    align-items: center;
+    justify-content: space-evenly;
     padding-top: 4%;
 }
 .thumbnail-edu img{
@@ -211,6 +213,9 @@ html{
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
+
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .contact li{
@@ -434,6 +439,10 @@ label {
 }
 
 .container{
+
+    display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;  
     margin-left: -62%;
     width: 1280px;
     min-height: 500px;
@@ -452,17 +461,57 @@ label {
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
-    border-radius: 1%;
+
+     align-items: center;
+     justify-content: space-evenly;
+     max-width: 67%;
+
 
 }
 
 .container .box .exp_box
 {
-   
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+}
+.container .box .exp_box1
+{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
 }
 
+.container .box .exp_box2
+{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+}
+.container .box .exp_box3
+{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+}
+.container .box .exp_box4
+{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+}
+.container .box .exp_box5
+{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
+    border-radius: 3px;
+}
 .container .box .exp_box img {
     max-width: 110%;
     transition: transform 2s;
@@ -479,7 +528,7 @@ label {
     left: 10px;
     bottom: 10px;
     right: 10px;
-    background: rgba(182, 181, 181, 0.9);
+    background: rgba(182, 181, 181, 0.92);
     transform: scale(0);
     transition: transform 0.5s;
 }
@@ -490,16 +539,22 @@ label {
 .container .box .details .content{
     position: absolute;
     top: 50%;
+    justify-content: center;
+
+    font-family: 'Ubuntu', sans-serif ;
     transform: translateY(-50%);
     text-align: center;
     padding: 15px;
     color: #fff;
 }
-.container .box .details .content h2{
+.container .box .details .content h3{
     margin: 0;
-    padding: 0;
-    font-size: 20px;
-    color: rgb(179, 60, 56);
+    margin-bottom: 240px;
+    margin-left: 45px;
+    font-size: 22px;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif ;
+    color: rgb(68, 70, 70);
 
 }
 
@@ -529,6 +584,15 @@ label {
     }
     .contact{
 
+    }
+    .form{
+        max-width: 50%;
+    }
+    .container { 
+        max-width: 90%; 
+    }
+    .loc{
+        max-width: 70%;
     }
     #search{
         width: 100%;
