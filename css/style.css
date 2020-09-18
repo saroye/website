@@ -32,6 +32,9 @@ html{
     cursor: pointer;
     
 }
+.content{
+    justify-content: center;
+}
 
 .nav-list{
     width: 70%;
@@ -444,6 +447,7 @@ label {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 30%;
     
 }
 
@@ -451,7 +455,7 @@ label {
     position: relative;
     width: 30%;
     height: 350px;
-    background: rgb(141, 58, 58);
+    background: rgb(124, 58, 58);
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
@@ -506,14 +510,58 @@ label {
     border-radius: 3px;
 }
 .container .box .exp_box img {
-    max-width: 110%;
+    max-width: 91%;
     transition: transform 2s;
 }
-
-.container .box:hover .exp_box img {
-    transform: scale(1.2);
+.container .box .exp_box1 img {
+    max-width: 160%;
+    transition: transform 2s;
+    
 }
 
+.container .box .exp_box2 img {
+    max-width: 150%;
+    transition: transform 2s;
+    
+}
+
+.container .box .exp_box3 img {
+    max-width: 100%;
+    transition: transform 2s;
+    
+}
+
+.container .box .exp_box4 img {
+    max-width: 90%;
+    transition: transform 2s;
+    
+}
+
+.container .box .exp_box5 img {
+    max-width: 3000%;
+    transition: transform 2s;
+    
+}
+
+
+.container .box:hover .exp_box  img {
+    transform: scale(1.7);
+}
+.container .box:hover .exp_box1  img {
+    transform: scale(1.7);
+}
+.container .box:hover .exp_box2  img {
+    transform: scale(1.7);
+}
+.container .box:hover .exp_box3  img {
+    transform: scale(1.7);
+}
+.container .box:hover .exp_box4  img {
+    transform: scale(1.7);
+}
+.container .box:hover .exp_box5  img {
+    transform: scale(1.7);
+}
 
 .container .box .details{
     position: absolute;
@@ -537,7 +585,7 @@ label {
     transform: translateY(-50%);
     text-align: center;
     padding: 15px;
-    color: rgb(253, 253, 253);
+    color: rgb(16, 27, 77);
 }
 .container .box .details .content h3{
     margin: 0;
@@ -546,7 +594,7 @@ label {
     font-size: 22px;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif ;
-    color: rgb(68, 70, 70);
+    color: rgb(102, 26, 138);
 
 }
 
@@ -579,7 +627,7 @@ label {
         max-width: 50%;
     }
     .container { 
-        max-width: 300%;
+        max-width: 280%;
     }
     .paras{
         max-width: 40%;
