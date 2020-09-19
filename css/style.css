@@ -151,14 +151,11 @@ html{
      display: flex;
      align-items: center;
      justify-content: space-evenly;
-     max-width: 68%;
+     max-width: 70%;
      margin: auto;
      font-family: 'Ubuntu', sans-serif;
      background-size: cover;
 }
-.section img {
-    display: block;
-} 
 
 
 .sectionTag{
@@ -178,14 +175,19 @@ html{
 }
 .location{
 
-    padding-right: 52%;
-    display: inline;
+    padding-right: 60%;
+    padding-bottom: 2%;
+}
+.iframe{
+    overflow: hidden;
 }
 .loc{
-    max-width: 60%;
+
+    position: relative;
+    max-width: 95%;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 4%;
+    padding-top: 5%;
 }
 .thumbnail-edu img{
     width: 199%;
@@ -435,8 +437,42 @@ label {
     padding-top: 6%;
 }
 
-.container{
 
+.container0 {
+    display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;  
+    margin-left: -63%;
+    width: 200%;
+    min-height: 500px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    overflow: hidden;
+}
+.container0 .box0{
+    position: relative;
+    width: 47.891234%;
+    background: fff;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0,0, 0.4);
+    max-width: 65%;
+}
+.container0 .box0 img {
+    max-width: 100%;
+}
+
+.container {
     display: grid;  
     grid-template-columns: 100px 100px 100px;  
     grid-template-rows: 50px 50px;  
@@ -447,20 +483,9 @@ label {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 30%;
-    
+    margin-bottom: 30%; 
 }
 
-.container .box1{
-    position: relative;
-    background: rgb(124, 58, 58);
-    margin: 50px;
-    box-sizing: border-box;
-    display: inline-block;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 65%;
-}
 .container .box{
     position: relative;
     width: 30%;
@@ -471,8 +496,6 @@ label {
     align-items: center;
     justify-content: space-evenly;
     max-width: 65%;
-
-
 }
 
 .container .box .exp_box
@@ -518,35 +541,35 @@ label {
     border-radius: 3px;
 }
 .container .box .exp_box img {
-    max-width: 91%;
+
+    max-width: 102%;
     transition: transform 2s;
 }
 .container .box .exp_box1 img {
-    max-width: 160%;
+    max-width: 180%;
     transition: transform 2s;
     
 }
 
 .container .box .exp_box2 img {
-    max-width: 150%;
+    max-width: 170%;
     transition: transform 2s;
-    
 }
 
 .container .box .exp_box3 img {
-    max-width: 100%;
+    max-width: 101.6%;
     transition: transform 2s;
     
 }
 
 .container .box .exp_box4 img {
-    max-width: 90%;
+    width: 120%;
     transition: transform 2s;
     
 }
 
 .container .box .exp_box5 img {
-   
+    width: 120%;
     transition: transform 2s;
     
 }
@@ -631,9 +654,11 @@ label {
         flex-direction: column-reverse;
         max-width: 60%;
     }
-
     .form{
         max-width: 50%;
+    }
+    .container0{
+        max-width: 300%;
     }
     .container { 
         max-width: 280%;
@@ -642,7 +667,7 @@ label {
         max-width: 40%;
     }
     .loc{
-        max-width: 50%;
+        width: 50%;
     }
     #search{
         width: 100%;
@@ -655,9 +680,6 @@ label {
     }
     .v-class-resp{
         opacity: 0;
-    }
-    .section{
-       flex-direction: row-reverse;
     }
     .text-big{
         text-align: center;
