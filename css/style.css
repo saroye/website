@@ -654,6 +654,9 @@ label {
         flex-direction: column-reverse;
         max-width: 60%;
     }
+    .secondHalf{
+        max-width: 100%;
+    }
     .mail{
         padding-top: 5%;
         padding-left: 13%;
@@ -670,21 +673,23 @@ label {
     
     .content {
         max-width: 100%;
-        font-size: 50%;
-        max-height: 80%;
+        font-size: 20%;
+        max-height: 100%;
         text-align: center;
+        overflow: hidden;
     }
     .container .box .details .content h3{
-
         text-align: center;
         max-width: 100%;
         font-size: 70%;
-        max-height: 80%;
 
     }
     .container .box{
+
+        font-size: 30%;
+        overflow: hidden;
         margin: 9%;
-        max-height: 105px;
+        max-height: 90%;
     }
     .section{
         max-width: 100%;
