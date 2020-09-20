@@ -682,9 +682,16 @@ label {
         max-height: 80%;
 
     }
-
-    .container0{
-        max-width: 300%;
+    .container .box{
+        margin: 9%;
+        max-height: 105px;
+    }
+    .section{
+        max-width: 100%;
+        padding-left: 10px;
+    }
+    .container0 .box0{
+        margin-left: 25%;
     }
     .container { 
         max-width: 280%;
