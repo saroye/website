@@ -333,7 +333,7 @@ label {
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    transition: background 0.1s ease;
+    transition: background 0.1s;
 }
 
 .acc_label:hover{
@@ -341,13 +341,12 @@ label {
 }
 
 .acc_label::after{
-    content: "";
+    content: "+";
     position: absolute;
     right: 20px;
-    transform: translateY(-50%);
-    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;"/></svg>');
-     background-size: contain;
-    transition: transform 0.4s ease;
+    transform: translateY(5%);
+    background-size: contain;
+    transition: transform 0.4s;
 }
 .acc_content{
     background-color: seashell;
@@ -673,8 +672,16 @@ label {
         max-width: 100%;
         font-size: 50%;
         max-height: 80%;
+        text-align: center;
     }
-    
+    .container .box .details .content h3{
+
+        text-align: center;
+        max-width: 100%;
+        font-size: 70%;
+        max-height: 80%;
+
+    }
 
     .container0{
         max-width: 300%;
