@@ -133,10 +133,11 @@ html{
 }
 
 .btn{
+    margin-top: 31px;
     padding: 8px 20px;
     margin: 7px 4px;
     border:  solid white;
-    border-radius: 8px;
+    border-radius: 1px;
     background: none;
     color: white;
     cursor: pointer;
@@ -622,7 +623,7 @@ label {
 }
 
 .bttn{
-    margin-top: 10%;
+    margin-top: 8%;
     text-align: center;
 
 }
