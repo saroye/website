@@ -420,11 +420,10 @@ label {
 
 .paras{
     width: 50%;
-    padding: 0px 60px;
 }
-.exp{
-    padding-top: 6%;
-}
+
+
+
 
 
 .container0 {
@@ -460,9 +459,141 @@ label {
 .container0 .box0 img {
     max-width: 100%;
 }
+.para{
+    margin-left: -5%;
+}
+.skills_container{
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.skill{
+    font-size: 225%;
+    font-family: 'Ubuntu', sans-serif ;
+}
+.slider{
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 3%;
+    overflow: hidden;
+    margin-bottom: 9%;
+    position: relative;
+    box-shadow: 0 0 19px rgba(0, 0,0, 0.4);
+}
+.slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.slide img{
+    width: 100%;
+}
+
+#prevBtn{
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
+    left: 2%;
+    font-size: 30px;
+    color: rgb(143, 61, 61);
+    cursor: pointer;
+}
+#nextBtn{
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
+    right: 2%;
+    font-size: 30px;
+    color: rgb(160, 72, 72);
+    cursor: pointer;
+}
+
+
+
+#prevBtn1{
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
+    left: 2%;
+    font-size: 30px;
+    color: rgb(160, 72, 72);
+    cursor: pointer;
+}
+#nextBtn1{
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
+    right: 2%;
+    font-size: 30px;
+    color: rgb(160, 72, 72);
+    cursor: pointer;
+}
+
+
+
+#prevBtn2{
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
+    left: 2%;
+    font-size: 30px;
+    color: rgb(160, 72, 72);
+    cursor: pointer;
+}
+#nextBtn2{
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
+    right: 2%;
+    font-size: 30px;
+    color: rgb(160, 72, 72);
+    cursor: pointer;
+}
+
+
+
+#prevBtn3{
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
+    left: 2%;
+    font-size: 30px;
+    color: rgb(160, 72, 72);
+    cursor: pointer;
+}
+#nextBtn3{
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
+    right: 2%;
+    font-size: 30px;
+    color: rgb(160, 72, 72);
+    cursor: pointer;
+}
+
 
 .container {
-    display: grid;  
     grid-template-columns: 100px 100px 100px;  
     grid-template-rows: 50px 50px;  
     margin-left: -63%;
