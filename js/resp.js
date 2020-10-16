@@ -37,6 +37,11 @@ const size = c_imgs[0].clientWidth;
 const size1 = c_imgs1[0].clientWidth;
 const size2 = c_imgs2[0].clientWidth;
 const size3 = c_imgs3[0].clientWidth;
+c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+//c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+c_slide1.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+c_slide2.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+c_slide3.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 
 c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 c_slide1.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';

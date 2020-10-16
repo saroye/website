@@ -478,8 +478,9 @@ label {
 }
 .slider{
     width: 45%;
-    margin-right: 5%;
-    margin-top: 3%;
+    border-radius: 3%;
+    margin-right: 4%;
+    margin-top: 2%;
     overflow: hidden;
     margin-bottom: 9%;
     position: relative;
@@ -823,17 +824,25 @@ label {
     .container .box .details .content h3{
         text-align: center;
         max-width: 100%;
-        font-size: 70%;
+        font-size: 20%;
+        overflow: hidden;
     }
 
+
+    .skills_container{
+        max-width: 90%;
+    }
+    .slider slide{
+        max-width: 100%;
+    }
     .mail{
         position: relative;
     }
     .container .box{
 
-        font-size: 30%;
+        font-size: 5%;
         overflow: hidden;
-        margin: 9%;
+        margin: 5%;
         max-height: 90%;
     }
     .section{
