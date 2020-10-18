@@ -828,12 +828,22 @@ label {
         overflow: hidden;
     }
 
-
-    .skills_container{
-        max-width: 90%;
+    .skill{
+        margin-left: 25%;
     }
-    .slider slide{
+    .skills_container{
+        max-height: 50%;
+        max-width: 280%;
+    }
+    .slider img{
         max-width: 100%;
+    }
+    .skills_container .slider {
+        height: 300px;
+        font-size: 5%;
+        overflow: hidden;
+        margin: 5%;
+        max-height: 90%;
     }
     .mail{
         position: relative;
