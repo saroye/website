@@ -146,6 +146,7 @@ html{
 }
 
 
+
 .box-main{
     display: flex;
     justify-content: center;
@@ -708,9 +709,12 @@ label {
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
 }
+.intro-sec{
+    height: 110%;
+}
 .container .box .exp_box img {
 
-    width: 102%;
+    width: 100%;
     transition: transform 2s;
 }
 .container .box .exp_box1 img {
@@ -833,9 +837,6 @@ label {
         height: 477px;
         flex-direction:  column-reverse;
         transition: all 1s ease-out;
-    }
-    .rightNav{
-        text-align: center;
     }
     .box-main{
         flex-direction: column-reverse;
