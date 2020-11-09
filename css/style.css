@@ -55,9 +55,7 @@ html{
 }
 .nav-list li a:hover{
     text-decoration: none;
-    
     color: grey; 
-
 }
 .search-box:hover > .search-text{
     width: 240px;
@@ -255,15 +253,25 @@ html{
     margin: 3%;
     display: inline;
 }
-
+/* .social{
+    font-size: 110%;
+    display: flex;
+    align-items: center;
+} */
 .social li {
     display: inline;
-    margin: 3.5%;
+    color: white;
+    font-size: 340%;
+    margin: 1.5%;
     justify-content: center;
+}
+.social li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
 }
 .last{
     padding-top: 3%;
-    font-size: larger;
+    font-size: 130%;
     padding-bottom: 0.5%;
     background-color: black;
 }
@@ -798,7 +806,7 @@ label {
     font-size: 22px;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif ;
-    color: rgb(102, 26, 138);
+    color: rgb(136, 0, 0);
 
 }
 
@@ -861,36 +869,41 @@ label {
     
     .content {
         max-width: 100%;
-        font-size: 20%;
+        font-size: 80%;
         max-height: 100%;
         text-align: center;
         overflow: hidden;
     }
+    .container .box{
+        width: 70%;
+        margin: auto;
+        margin: 8%;
+        overflow: hidden;
+        max-width: 100%;
+        max-height: 90%;
+    }
+
     .container .box .details .content h3{
         text-align: center;
         max-width: 100%;
-        font-size: 20%;
+        font-size: 70%;
         overflow: hidden;
     }
 
     .skill{
         margin-left: 25%;
     }
-    .skills_container{
-        max-height: 50%;
-        max-width: 280%;
-    }
-    .slider img{
+    
+    .skills_container .slider .slide {
         max-width: 100%;
+        max-height: 100%;
     }
-
-    .slide img{
-        max-width: 100%;
-    }
+    
     .skills_container .slider {
-
         max-width: 100%;
-        height: 500px;
+        max-height: 100%;
+        height: 290px;
+        width: 300px;
         font-size: 5%;
         overflow: hidden;
         margin: 5%;
@@ -899,22 +912,28 @@ label {
     .mail{
         position: relative;
     }
-    .container .box{
-        max-width: 66%;
-        font-size: 5%;
-        overflow: hidden;
-        margin: 5%;
-
-        max-height: 90%;
+    .social{
+        margin: auto;
+        align-items: center;
+        font-size: 70%;
+        max-width:100%;
     }
+    .contact{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        font-size: 90%;
+        max-width:100%;
+    }
+    
     .section{
         max-width: 100%;
     }
     .container0 .box0{
-        margin-left: 25%;
+        margin-left: 15%;
     }
     .container { 
-        max-width: 280%;
+        max-width: 380%;
     }
     .paras{
         max-width: 40%;
