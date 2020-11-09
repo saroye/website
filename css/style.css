@@ -265,9 +265,14 @@ html{
     margin: 1.5%;
     justify-content: center;
 }
-.social li a:hover{
-    text-decoration: none;
-    color: rgb(255, 255, 255); 
+.fa-facebook-f:hover{
+    color: rgb(30, 92, 150); 
+}
+.fa-linkedin:hover{
+    color: rgb(30, 92, 150); 
+}
+.fa-github:hover{
+    color: rgb(61, 126, 55);
 }
 .last{
     padding-top: 3%;
@@ -933,7 +938,9 @@ label {
         margin-left: 15%;
     }
     .container { 
-        max-width: 380%;
+
+        background-color: black;
+        max-width: 480%;
     }
     .paras{
         max-width: 40%;
