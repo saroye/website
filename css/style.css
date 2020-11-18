@@ -253,11 +253,6 @@ html{
     margin: 3%;
     display: inline;
 }
-/* .social{
-    font-size: 110%;
-    display: flex;
-    align-items: center;
-} */
 .social li {
     display: inline;
     color: white;
@@ -266,13 +261,14 @@ html{
     justify-content: center;
 }
 .fa-facebook-f:hover{
-    color: rgb(30, 92, 150); 
+    color: rgb(245, 245, 245); 
+    
 }
 .fa-linkedin:hover{
-    color: rgb(30, 92, 150); 
+    color: rgb(248, 249, 250); 
 }
 .fa-github:hover{
-    color: rgb(61, 126, 55);
+    color: rgb(255, 255, 255);
 }
 .last{
     padding-top: 3%;
