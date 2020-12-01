@@ -3,8 +3,6 @@ navbar = document.querySelector('.navbar')
 navList = document.querySelector('.nav-list')
 rightNav = document.querySelector('.rightNav')
 
-
-
 burger.addEventListener('click', ()=>{
     rightNav.classList.toggle('v-class-resp');
     navList.classList.toggle('v-class-resp');
@@ -16,37 +14,36 @@ const c_slide = document.querySelector('.slide');
 const c_imgs = document.querySelectorAll('.slide img');
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
+
 const c_slide1 = document.querySelector('.slide1');
 const c_imgs1 = document.querySelectorAll('.slide1 img');
-const c_slide2 = document.querySelector('.slide2');
-const c_imgs2= document.querySelectorAll('.slide2 img');
-const c_slide3 = document.querySelector('.slide3');
-const c_imgs3 = document.querySelectorAll('.slide3 img');
 const prevBtn1 = document.querySelector('#prevBtn1');
 const nextBtn1 = document.querySelector('#nextBtn1');
+
+const c_slide2 = document.querySelector('.slide2');
+const c_imgs2= document.querySelectorAll('.slide2 img');
 const prevBtn2 = document.querySelector('#prevBtn2');
 const nextBtn2 = document.querySelector('#nextBtn2');
+
+const c_slide3 = document.querySelector('.slide3');
+const c_imgs3 = document.querySelectorAll('.slide3 img');
 const prevBtn3 = document.querySelector('#prevBtn3');
 const nextBtn3 = document.querySelector('#nextBtn3');
 
-let counter =1;
-let counter1 =1;
-let counter2 =1;
-let counter3 =1;
+ counter =1,counter1 =1,counter2 =1, counter3 =1;
 const size = c_imgs[0].clientWidth;
 const size1 = c_imgs1[0].clientWidth;
 const size2 = c_imgs2[0].clientWidth;
 const size3 = c_imgs3[0].clientWidth;
 c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
-//c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 c_slide1.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 c_slide2.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 c_slide3.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 
-c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
-c_slide1.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
-c_slide2.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
-c_slide3.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+// c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+// c_slide1.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+// c_slide2.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+// c_slide3.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 
 
 
