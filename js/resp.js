@@ -40,10 +40,10 @@ c_slide1.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 c_slide2.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 c_slide3.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 
-// c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
-// c_slide1.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
-// c_slide2.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
-// c_slide3.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+c_slide.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+c_slide1.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+c_slide2.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
+c_slide3.style.webkitTransform = 'translateX(' + (- size * counter ) + 'px)';
 
 
 

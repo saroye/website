@@ -38,7 +38,7 @@ html{
 
 .nav-list{
     width: 80%;
-    font-size: 110%;
+    font-size: 97%;
     display: flex;
     align-items: center;
 
@@ -133,7 +133,7 @@ html{
 
 
 .secondHalf{
-    width: 130%;
+    width: 110%;
     margin: 45%;
     padding: 16px 0px;
     border: 4px white;
@@ -155,23 +155,26 @@ html{
     max-width: 50%;
     margin: auto;
 }
-
+.button{
+    border-radius: 10px;
+    margin-top: 3%;
+}
 .box-main img{
     
     width: 80%;
-    border: 2px solid white;
+    border: 2px solid rgb(202, 198, 198);
     border-radius: 20px;
     display: block;
     margin: auto;
 }
 
 .text-big{
-    font-size: 225%;
+    font-size: 180%;
     padding: 10px 0px;
 }
 
 .text-small{
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 5px;
 }
 
@@ -272,7 +275,7 @@ html{
 }
 .last{
     padding-top: 3%;
-    font-size: 130%;
+    font-size: 110%;
     padding-bottom: 0.5%;
     background-color: black;
 }
@@ -356,7 +359,7 @@ mail {
     color: white;
     text-align: center;
     padding-top:  4.4%;
-    height: 95px;
+    height: 80px;
     font-family: 'Ubuntu', sans-serif ;
     background-color: black;
 }
@@ -374,7 +377,7 @@ label {
     margin-bottom: 1%;
 }
 .accordion{
-    width: 210%;
+    width: 205%;
     margin-left: -60%;
     margin-bottom: 10%;
     font-size: 120%;
@@ -424,7 +427,7 @@ label {
 }
 
 .acc_input:checked ~ .acc_label::after {
-    transform: translateY(-50%) rotate(0.25turn) ;
+    transform: translateY(-20%) rotate(-0.25turn) ;
 }
 
 .lang img{
@@ -666,11 +669,36 @@ label {
     width: 31%;
     background: rgb(124, 58, 58);
     margin: 10px;
+    margin-bottom: 5%;
     box-sizing: border-box;
     display: inline-block;
     align-items: center;
     justify-content: space-evenly;
     max-width: 65%;
+}
+
+.container .box .learn {
+    background-color: rgb(194, 184, 179);
+    display: flex;
+    font-family: "Verdana";
+    align-items: center;
+    font-size: 110%;
+    box-shadow: 0 0 15px rgba(0, 0,0, 0.7);
+    justify-content: center;
+    height: 16%;
+}
+.container .box .more{
+    display: none;
+}
+.container .box:hover .exp_name{
+    transition: transform 2s;
+    display: none;
+} 
+.container .box:hover .more{
+    transition: transform 2s;
+    transform: scale(1.7);
+    display: inline;
+    transform: scaleY(1);
 }
 
 .container .box .exp_box
@@ -746,7 +774,6 @@ label {
 .container .box .exp_box4 img {
     width: 120%;
     transition: transform 2s;
-    
 }
 
 .container .box .exp_box5 img {
@@ -778,6 +805,8 @@ label {
     position: absolute;
     top: 10px;
     left: 10px;
+    overflow: hidden;
+    height: 70%;
     bottom: 10px;
     right: 10px;
     background: rgba(182, 181, 181, 0.92);
@@ -786,20 +815,19 @@ label {
 }
 .container .box:hover .details{
     transform: scaleY(1);
-
 }
 .container .box .details .content{
     position: absolute;
     top: 50%;
     overflow: hidden;
     justify-content: center;
-    font-family: 'Ubuntu', sans-serif ;
+    font-family: "Arial";
     transform: translateY(-50%);
     text-align: center;
     padding: 15px;
     color: rgb(16, 27, 77);
 }
-.container .box .details .content h3{
+/* .container .box .details .content h3{
     margin: 0;
     margin-bottom: 20px;
     overflow: hidden;
@@ -809,7 +837,7 @@ label {
     font-family: 'Ubuntu', sans-serif ;
     color: rgb(136, 0, 0);
 
-}
+} */
 
 .bttn{
     color: black;
@@ -879,6 +907,7 @@ label {
         width: 70%;
         margin: auto;
         margin: 8%;
+        height: 100%;
         overflow: hidden;
         max-width: 100%;
         max-height: 90%;
@@ -917,7 +946,7 @@ label {
         margin: auto;
         align-items: center;
         font-size: 70%;
-        max-width:100%;
+        max-width:60%;
     }
     .contact{
         margin: auto;
