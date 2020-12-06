@@ -374,7 +374,7 @@ label {
     left: 100px;
 }
 .collapse{
-    margin-bottom: 1%;
+    margin-bottom: 0.7%;
 }
 .accordion{
     width: 205%;
@@ -393,6 +393,7 @@ label {
 .acc_label {
     display: block;
     color: white;
+    height: 20px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -535,6 +536,7 @@ label {
 }
 .slider{
     width: 45%;
+    height: 440px;
     border-radius: 3%;
     margin-right: 4%;
     margin-top: 2%;
@@ -548,8 +550,14 @@ label {
     width: 100%;
     height: 500px;
 }
+.slider:hover{
+    border: 4px;
+    box-shadow: 0 0  89px rgb(0, 57, 110, 2);
+    
+}
 .slide img{
     width: 100%;
+    height: 440px;
 }
 
 #prevBtn{
@@ -678,14 +686,22 @@ label {
 }
 
 .container .box .learn {
-    background-color: rgb(194, 184, 179);
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(99, 115, 134);
     display: flex;
     font-family: "Verdana";
     align-items: center;
+    color: rgb(216, 215, 215);
     font-size: 110%;
     box-shadow: 0 0 15px rgba(0, 0,0, 0.7);
     justify-content: center;
     height: 16%;
+    transition: 0.8s;
+
+}
+.container .box:hover .learn{
+    background-color: rgb(216, 215, 215);
+    
 }
 .container .box .more{
     display: none;
@@ -699,6 +715,10 @@ label {
     transform: scale(1.7);
     display: inline;
     transform: scaleY(1);
+}
+.container .box:hover .bbbb{
+    color: rgb(67, 98, 134);
+    border-color: rgb(67, 98, 134);
 }
 
 .container .box .exp_box
@@ -805,11 +825,14 @@ label {
     position: absolute;
     top: 10px;
     left: 10px;
+    font-family: "Verdana";
     overflow: hidden;
     height: 70%;
     bottom: 10px;
     right: 10px;
-    background: rgba(182, 181, 181, 0.92);
+    text-align: justify;
+    font-size: 90%;
+    background: rgba(211, 209, 209, 0.92);
     transform: scale(0);
     transition: transform 0.5s;
 }
@@ -821,7 +844,7 @@ label {
     top: 50%;
     overflow: hidden;
     justify-content: center;
-    font-family: "Arial";
+    font-family: "Verdana";
     transform: translateY(-50%);
     text-align: center;
     padding: 15px;
@@ -875,6 +898,9 @@ label {
         flex-direction:  column-reverse;
         transition: all 1s ease-out;
     }
+    .search-box{
+        display: none;
+    }
     .box-main{
         flex-direction: column-reverse;
         max-width: 60%;
@@ -912,7 +938,9 @@ label {
         max-width: 100%;
         max-height: 90%;
     }
-
+    .container .box .learn {
+        height: 50px;
+    }
     .container .box .details .content h3{
         text-align: center;
         max-width: 100%;
@@ -972,6 +1000,7 @@ label {
         width: 100%;
     }
     .burger{
+        right: 420px;
         display: block;
     }
     .h-nav-resp{
