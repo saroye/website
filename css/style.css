@@ -717,8 +717,8 @@ label {
     transform: scaleY(1);
 }
 .container .box:hover .bbbb{
-    color: rgb(67, 98, 134);
-    border-color: rgb(67, 98, 134);
+    color: rgb(99, 115, 134);
+    border-color: rgb(99, 115, 134);
 }
 
 .container .box .exp_box
@@ -823,11 +823,12 @@ label {
 
 .container .box .details{
     position: absolute;
+    justify-content: center;
     top: 10px;
     left: 10px;
     font-family: "Verdana";
     overflow: hidden;
-    height: 70%;
+    height: 80%;
     bottom: 10px;
     right: 10px;
     text-align: justify;
