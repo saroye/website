@@ -407,7 +407,7 @@ label {
     margin-bottom: 0.7%;
 }
 .accordion{
-    margin-top: 2.4%;
+    margin-top: 1.4%;
     width: 100%;
     margin-left: -5%;
     margin-bottom: 10%;
@@ -567,9 +567,8 @@ label {
     height: 440px;
     border-radius: 3%;
     margin-right: 4%;
-    margin-top: 2%;
     overflow: hidden;
-    margin-bottom: 9%;
+    margin-bottom: 7%;
     position: relative;
     box-shadow: 0 0 19px rgba(0, 0,0, 0.4);
 }
@@ -579,8 +578,7 @@ label {
     height: 500px;
 }
 .slider:hover{
-    border: 4px;
-    box-shadow: 0 0  89px rgb(0, 57, 110, 2);
+    box-shadow: 0 0  18px rgb(0, 57, 110, 2);
     
 }
 .slide img{
@@ -692,7 +690,7 @@ label {
     grid-template-rows: 50px 50px;  
     margin-left: -7%;
     width: 115%;
-    margin-top: 2%;
+    margin-top: 1%;
     min-height: 500px;
     background: #fff;
     display: flex;
@@ -962,7 +960,7 @@ label {
         max-width: 80%;
     }
     .content {
-        max-width: 100%;
+        max-width: 60%;
         font-size: 80%;
         max-height: 100%;
         text-align: center;
@@ -988,7 +986,10 @@ label {
     .container .box .learn {
         height: 66px;
     }
-    .container .box .details .content h3{
+    .container .box .details {
+        max-height: 70%;
+    }
+    .container .box .details .content{
         text-align: center;
         max-width: 100%;
         font-size: 70%;
