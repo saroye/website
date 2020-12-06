@@ -370,21 +370,52 @@ mail {
 label { 
     display: block;
 }
-.eduu{
-    left: 100px;
+
+.section .eduu{
+    margin-top: 3%;
+    margin-left: -5%;
+    font-style: inherit;
+    border-bottom-color: #1c3486;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-bottom-width: 100%;
+    font-size: 200%;
+    
+}
+
+.section .exppp{
+    margin-left: -5%;
+    border-bottom-color: #1c3486;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-bottom-width: 100%;
+    font-size: 205%;
+}
+.section .paras{
+    width: 100%;
+}
+
+.exp .skill{
+
+    font-size: 205%;
+    border-bottom-color: #1c3486;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+
 }
 .collapse{
     margin-bottom: 0.7%;
 }
 .accordion{
-    width: 205%;
-    margin-left: -60%;
+    margin-top: 2.4%;
+    width: 100%;
+    margin-left: -5%;
     margin-bottom: 10%;
     font-size: 120%;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
     overflow: hidden;
-    font-family: 'Ubuntu', sans-serif ;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .acc_label, .acc_content{
@@ -476,7 +507,7 @@ label {
     border-radius: 3px;
 }
 
-.paras{
+.parass{
     width: 50%;
 }
 
@@ -522,18 +553,15 @@ label {
 }
 .skills_container{
     margin: auto;
+    margin-top: 2%;
     box-sizing: border-box;
     justify-content: space-evenly;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
 }
-.skill{
-    font-size: 225%;
-    font-family: 'Ubuntu', sans-serif ;
-}
+
 .slider{
     width: 45%;
     height: 440px;
@@ -662,8 +690,9 @@ label {
 .container {
     grid-template-columns: 100px 100px 100px;  
     grid-template-rows: 50px 50px;  
-    margin-left: -63%;
-    width: 225%;
+    margin-left: -7%;
+    width: 115%;
+    margin-top: 2%;
     min-height: 500px;
     background: #fff;
     display: flex;
@@ -675,7 +704,7 @@ label {
 .container .box{
     position: relative;
     width: 31%;
-    background: rgb(124, 58, 58);
+    background: rgb(243, 243, 243);
     margin: 13px;
     margin-bottom: 5%;
     box-sizing: border-box;
@@ -902,12 +931,18 @@ label {
     .search-box{
         display: none;
     }
+    .background{
+        overflow: hidden;
+    }
     .box-main{
         flex-direction: column-reverse;
         max-width: 60%;
     }
-    .secondHalf{
-        max-width: 100%;
+    .secondHalf img{
+        width: 70%;
+        max-height: 100%;
+        max-width: 50%;
+        border: 40%;
     }
     .mail{
         padding-top: 5%;
@@ -923,6 +958,9 @@ label {
         max-width: 50%;
     }
     
+    .section{
+        max-width: 80%;
+    }
     .content {
         max-width: 100%;
         font-size: 80%;
@@ -930,17 +968,25 @@ label {
         text-align: center;
         overflow: hidden;
     }
+    .container{
+        margin-left: auto;
+        justify-self: center;
+    }
     .container .box{
-        width: 70%;
+        justify-content: center;
+        width: 280px;
+        height: 350px;
+        background-color: white;
+        /* width: 70%; */
         margin: auto;
-        margin: 8%;
-        height: 100%;
+        margin: 4%;
+        /* height: 100%; */
         overflow: hidden;
         max-width: 100%;
         max-height: 90%;
     }
     .container .box .learn {
-        height: 50px;
+        height: 66px;
     }
     .container .box .details .content h3{
         text-align: center;
@@ -949,20 +995,18 @@ label {
         overflow: hidden;
     }
 
-    .skill{
-        margin-left: 25%;
-    }
+   
     
-    .skills_container .slider .slide {
+    .slide img{
         max-width: 100%;
         max-height: 100%;
+        height: 290px;
     }
     
     .skills_container .slider {
         max-width: 100%;
         max-height: 100%;
         height: 290px;
-        width: 300px;
         font-size: 5%;
         overflow: hidden;
         margin: 5%;
@@ -994,14 +1038,35 @@ label {
     .container { 
         max-width: 480%;
     }
+    .text-big{
+        font-size: 120%;
+    }
+    .text-small{
+        font-size:100%
+    }
+    .section .eduu{
+        font-size: 140%;
+        max-width: 100%;
+    }
+    .section .exppp{
+        font-size: 170%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .exp .skill{
+        margin-left: 20%;
+        text-align: center;
+        font-size: 170%;
+        max-width: 60%;
+    }
     .paras{
-        max-width: 40%;
+        max-width: 84%;
     }
     #search{
         width: 100%;
     }
     .burger{
-        right: 420px;
+        right: 88%;
         display: block;
     }
     .h-nav-resp{
