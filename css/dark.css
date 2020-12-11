@@ -114,7 +114,8 @@ html{
 }
 
 .background{
-    background: rgba(0, 0,0, 0.7) url('../img/bg.jpeg');
+    background: rgba(0, 0,0, 0.7) url('../img/GGB.jpg');
+    
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -421,7 +422,7 @@ label {
     margin-top: 1.4%;
     width: 100%;
     margin-left: -5%;
-    background-color: rgb(255, 251, 248);
+    background-color: rgb(255, 250, 246);
     margin-bottom: 10%;
     font-size: 120%;
     transition: ease-in-out;

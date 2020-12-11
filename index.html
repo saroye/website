@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">  
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
-
+    <!-- <link rel="stylesheet" href=""> -->
 
     <title>Mohit Saroye</title>
 </head>
@@ -66,7 +66,7 @@
 
 
 
-    <section class="section" n>
+    <section class="section" data-aos= "fade-left">
         <div class="paras">
             <p class="text-big eduu" id="Education">Education and Background</p>
             <div class="accordion">
@@ -135,7 +135,7 @@
     </section>
 
 
-    <section class="section exp" id="Skills">
+    <section class="section exp" id="Skills" data-aos= "fade-right">
         <div class="para">
 
             <p class="skill">Skills</p>
@@ -211,7 +211,7 @@
 
         </div>
     </section>
-    <section class="section exp">
+    <section class="section exp" data-aos= "fade-right">
         <div class="paras">
             
             <p class="exppp" id="Experience"> Experience </p>
@@ -345,7 +345,7 @@
         </div>
     </section>
 
-    <section class="contact" id="Contact">
+    <section class="contact" id="Contact" data-aos= "fade-up">
         <h3 class="contact-h"> Lets talk more!</h3>
         <h5 class="contact-h-r" id="Lets Build!">Reach me at:</h5>
         <div class="form">
@@ -367,6 +367,8 @@
         </div>
     </section>
     <script src="js/resp.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init({ offset: 400, duration: 1000 }); </script>
 </body>
 <footer class="foot">
     <ul class="social">
