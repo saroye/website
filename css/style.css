@@ -182,7 +182,7 @@ html{
     margin-top: 31px;
     padding: 8px 20px;
     margin: 7px 4px;
-    border:  solid white;
+    border: 2px solid white;
     border-radius: 1px;
     background: none;
     color: white;
@@ -192,6 +192,26 @@ html{
 .btn-sm{
     padding: 6px 10px;
     vertical-align: middle;
+}
+.btn-dark {
+    color: white;
+    margin-left: -5px;
+    border-radius:400px;
+    background-color:rgb(0, 0, 0);
+     margin-top: 20px;
+     padding: 9.5px 20px;
+     color: white;
+     cursor: pointer;
+     outline:none;
+}
+
+.btn-light {
+    background-color:rgba(143, 143, 143, 0.664);
+    border-radius:400px;
+    margin-top: 20px;
+    padding: 8px 20px;
+    color: white;
+    outline:none;    
 }
 
 .section{
@@ -336,11 +356,6 @@ mail {
 }
 
 
-.btn-dark{
-    color: rgb(172, 133, 133);
-    border-radius: 4px;
-    border-color: rgb(148, 0, 0);
-}
 
 .burger{
     display: none;
@@ -421,7 +436,7 @@ label {
     margin-top: 1.4%;
     width: 100%;
     margin-left: -5%;
-    background-color: rgb(255, 251, 248);
+    background-color: rgb(255, 248, 242);
     margin-bottom: 10%;
     font-size: 120%;
     transition: ease-in-out;
@@ -443,10 +458,14 @@ label {
     cursor: pointer;
     position: relative;
     transition: ease-in-out;
+     color: rgb(245, 243, 243);
+     background-color: rgb(126, 37, 37);
+     transition: 0.8s;
 }
 
 .acc_label:hover{
-    background: rgba(0, 0,0, 0.1);
+   color: rgb(248, 248, 248);
+   background-color: rgba(82, 21, 6, 0.767);
 }
 
 .acc_label::after{

@@ -9,6 +9,18 @@ burger.addEventListener('click', ()=>{
     navbar.classList.toggle('h-nav-resp')
 }) 
 
+var setTheme = localStorage.getItem('theme')
+console.log('theme: ', setTheme)
+if (setTheme == null) {
+    swapStyle('css/style.css')
+}
+else {
+    swapStyle(setTheme)
+}
+ function swapStyle(sheet) {
+     document.getElementById('mystylesheet').href = sheet
+     localStorage.setItem('theme', sheet)
+}
 
 const c_slide = document.querySelector('.slide');
 const c_imgs = document.querySelectorAll('.slide img');
@@ -104,7 +116,7 @@ c_slide3.addEventListener('transitionend' ,() =>{
     }
 });
 
-nextBtn.addEventListener('click', ()=>{
+nextBtn.addEventListener('click', () => {
     if(counter>=c_imgs.length-1) return;
     c_slide.style.transition = "transform 0.4s ease-in-out";
     counter++;

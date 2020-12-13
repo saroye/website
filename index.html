@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" id="mystylesheet" type="text/css" href="css/style.css">  
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href=""> -->
@@ -53,28 +53,31 @@
         <div class="box-main">
             <div class="firstHalf">
                 <p class="text-big txt-name">Hi, I'm <a style="color: rgb(125, 177, 224);">Mohit Saroye</a> ! </p>
-                <p class="text-small">Software Engineer • Web Developer </p>
+                <p class="text-small">Software Engineer <b style= "color: rgb(125, 177, 224);" >  •  </b>  Web Developer </p>
                 <div class="button">
                     <a href="https://drive.google.com/file/d/1-xeHlAhptUCdulQ2Pz_c1Ws3LTGQv7II/view?usp=sharing" target="_blank">
                         <button class="btn"> Resume</button></a>
                     <a href="#Lets Build!"> <button class="btn">Lets Build!</button></a>
                 </div>
             </div>
-            <div class="secondHalf"><img src="img/test.png" alt="laptop"></div>
+            <div class="secondHalf">
+                <img src="img/test.png" alt="laptop">
+                <button class="btn-light" onclick="swapStyle('css/style.css')" style="transition: ease-in-out">  Light Mode</button>
+                <button class="btn-dark" onclick="swapStyle('css/dark.css')">  Dark Mode</button>
+            </div>
         </div>
     </section>
 
 
 
+    <section class="sec"> 
     <section class="section" data-aos= "fade-left">
         <div class="paras">
             <p class="text-big eduu" id="Education">Education and Background</p>
             <div class="accordion">
                 <div class="collapse">
                     <input type="checkbox" name="Education1" id="Major1" class="acc_input">
-                    <label for="Major1" class="acc_label"
-                        style="color: rgb(245, 244, 243); background-color: rgb(126, 37, 37); transition: 0.8s;">Bachelor's of
-                        Science</label>
+                    <label for="Major1" class="acc_label">Bachelor's of Science</label>
                     <div class="acc_content" style="transition: 0.8s;">
                         <ul style="margin-left: 4%;">
                             <li>Iowa State University, B.Sc. in Computer Science, Class of 2020.</li>
@@ -85,8 +88,7 @@
                 </div>
                 <div class="collapse">
                     <input type="checkbox" name="Education2" id="HighSchool" class="acc_input">
-                    <label for="HighSchool" class="acc_label"
-                        style="color: rgb(245, 244, 243); background-color: rgb(126, 37, 37);">High School
+                    <label for="HighSchool" class="acc_label">High School
                         Education</label>
                     <div class="acc_content">
                         <ul style="margin-left: 4%;">
@@ -96,11 +98,9 @@
                         </ul>
                     </div>
                 </div>
-
                 <div class="collapse">
                     <input type="checkbox" name="Education2" id="Major3" class="acc_input">
-                    <label for="Major3" class="acc_label"
-                        style="color: rgb(245, 244, 243); background-color: rgb(126, 37, 37);">Autodidact Skills
+                    <label for="Major3" class="acc_label">Autodidact Skills
                     </label>
                     <div class="acc_content">
                         <p>
@@ -116,8 +116,7 @@
 
                 <div>
                     <input type="checkbox" name="Education2" id="Major4" class="acc_input">
-                    <label for="Major4" class="acc_label"
-                        style="color: rgb(245, 244, 243); background-color: rgb(126, 37, 37);">About Me !
+                    <label for="Major4" class="acc_label">About Me !
                     </label>
                     <div class="acc_content">
                         <p style="margin-left: 2%;">Result-driven individual that emphasizes practicality over being
@@ -133,8 +132,10 @@
             </div>
             
     </section>
+    </section>
 
 
+   <section class="sec">
     <section class="section exp" id="Skills" data-aos= "fade-right">
         <div class="para">
 
@@ -211,7 +212,11 @@
 
         </div>
     </section>
-    <section class="section exp" data-aos= "fade-right">
+
+
+   </section>
+   <section class="sec">
+    <section class="section exp" data-aos= "fade-left">
         <div class="paras">
             
             <p class="exppp" id="Experience"> Experience </p>
@@ -225,8 +230,7 @@
                     <div class="details">
                         <div class="content">
                             <!-- <h3>Android App</h3> -->
-                            <p> Develop Android App, "BuildIt" for Free-lancer job posting App. Synced Rest Controller using Spring framework,
-                                 to map incoming URI request to the designated Rest resources.
+                            <p class="conn"> Develop Android App, "BuildIt" for Free-lancer job posting App. Synced Rest Controller using Spring framework, to map incoming URI request to the designated Rest resources.
                                 Implemented client communication using Rest API’s and
                                 used Json request to access MySQL database server.
                                 Developed round-circuit web socket connections with the
@@ -236,7 +240,7 @@
                         </div>
                     </div>
                     <div class="learn">
-                       <p class="exp_name">Android App</p>
+                         <p class="exp_name">Android App </p>
                         <a href="https://github.com/saroye" target="_blank" class="more"> <button class="btn bbbb">Learn more</button></a>
                     </div>
                 </div>
@@ -249,7 +253,7 @@
                     <div class="details">
                         <div class="content">
                             <!-- <h3>Jungle Life Cycle (Java)</h3> -->
-                          
+
                             <p> Applied principles of polymorphism, abstract classes, and inheritance to
                                 check animal type: reptiles, insects, or trees.
                                 Managed the population by doubly linked lists and used Binary Search
@@ -344,7 +348,9 @@
             </div>
         </div>
     </section>
+   </section>
 
+    <section class="hml">
     <section class="contact" id="Contact" data-aos= "fade-up">
         <h3 class="contact-h"> Lets talk more!</h3>
         <h5 class="contact-h-r" id="Lets Build!">Reach me at:</h5>
@@ -363,8 +369,8 @@
                     tabindex="0"></iframe>
 
             </div>
-
         </div>
+        </section>
     </section>
     <script src="js/resp.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
