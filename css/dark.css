@@ -58,7 +58,7 @@ html{
     color: rgb(255, 250, 250); 
 }
 .search-box:hover > .search-text{
-    width: 240px;
+    width: 180px;
     padding: 0px 6px;
 }
 .search-box:hover > .search-btn{
@@ -66,11 +66,11 @@ html{
 }
 .search-box{
     position: absolute;
-    left: 50%;
+    left: 95%;
     transform: translateX(-100%);
     height: 40px;
     border-radius: 40px;
-    margin-left: 47%; 
+
     background-color: rgb(101, 105, 110);  
 }
 
@@ -360,7 +360,6 @@ mail {
 .btn-dark{
     color: rgb(172, 133, 133);
     border-radius: 4px;
-    border-color: rgb(148, 0, 0);
 }
 
 .burger{
@@ -444,23 +443,23 @@ label {
 }
 .btn-dark {
     color: white;
-    margin-left: -5px;
-    border-radius: 400px;
-    background-color: rgb(0, 0, 0);
+    margin-left: -6px;
+    border-radius: 0px 400px 400px 0px;
+    background-color:rgb(0, 0, 0);
     margin-top: 20px;
-    padding: 9.5px 20px;
+    padding: 8px 8px;
     color: white;
     cursor: pointer;
-    outline: none;
+    outline:none;
 }
 
 .btn-light {
-    background-color: rgba(143, 143, 143, 0.664);
-    border-radius: 400px;
+    background-color:rgba(143, 143, 143, 0.664);
+    border-radius: 400px 0px 0px 400px;
     margin-top: 20px;
-    padding: 8px 20px;
+    padding: 8px 8px;
     color: white;
-    outline: none;
+    outline:none;
 }
 .accordion{
     margin-top: 1.4%;
@@ -487,13 +486,13 @@ label {
     cursor: pointer;
     position: relative;
     transition: ease-in-out;
-    color: rgb(141, 139, 138);
-    background-color: rgb(21, 32, 68);
+    color: rgb(162, 163, 165);
+    background-color: rgb(17, 29, 66);
     transition: 0.8s;
 }
 .acc_label:hover{
     color: rgb(248, 248, 248);
-    background-color: rgb(40, 94, 131);
+    background-color: rgb(24, 75, 151);
 }
 
 .acc_label::after{
@@ -505,7 +504,8 @@ label {
     background-size: contain;
 }
 .acc_content{
-    background-color: rgba(179, 179, 179, 0.603);
+    background-color: rgba(229, 226, 226, 0.384);
+    color: black;
     line-height: 1.6;
     font-size: 0.85em;
     transition: ease-in-out;
