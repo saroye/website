@@ -117,6 +117,9 @@ html{
     background: rgba(0, 0,0, 0.7) url('../img/bg.jpeg');
     background-size: cover;
     background-blend-mode: darken;
+    z-index: 10;
+    mix-blend-mode: linear;
+    background-blend-mode: multiply;
 }
 .firstSection{
     height: 100vh;
