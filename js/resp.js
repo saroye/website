@@ -17,9 +17,9 @@ if (setTheme == null) {
 else {
     swapStyle(setTheme)
 }
- function swapStyle(sheet) {
-     document.getElementById('mystylesheet').href = sheet
-     localStorage.setItem('theme', sheet)
+function swapStyle(sheet) {
+    document.getElementById('mystylesheet').href = sheet
+    localStorage.setItem('theme', sheet);
 }
 
 const c_slide = document.querySelector('.slide');
@@ -41,8 +41,7 @@ const c_slide3 = document.querySelector('.slide3');
 const c_imgs3 = document.querySelectorAll('.slide3 img');
 const prevBtn3 = document.querySelector('#prevBtn3');
 const nextBtn3 = document.querySelector('#nextBtn3');
-
- counter =1,counter1 =1,counter2 =1, counter3 =1;
+counter =1,counter1 =1,counter2 =1, counter3 =1;
 const size = c_imgs[0].clientWidth;
 const size1 = c_imgs1[0].clientWidth;
 const size2 = c_imgs2[0].clientWidth;

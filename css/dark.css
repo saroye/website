@@ -358,7 +358,7 @@ mail {
 
 
 .btn-dark{
-    color: rgb(172, 133, 133);
+    color: #080808;
     border-radius: 4px;
 }
 
@@ -444,20 +444,23 @@ label {
     color: white;
     margin-left: -6px;
     border-radius: 0px 400px 400px 0px;
-    background-color:rgb(0, 0, 0);
+    background-color: #080808;
+    border:0px;
     margin-top: 20px;
     padding: 8px 8px;
-    color: white;
+    color: rgb(83, 123, 255);
     cursor: pointer;
     outline:none;
 }
 
 .btn-light {
-    background-color:rgba(143, 143, 143, 0.664);
+    background-color:rgb(83, 83, 83);
     border-radius: 400px 0px 0px 400px;
     margin-top: 20px;
     padding: 8px 8px;
-    color: white;
+    border: 0px;
+    color: rgb(0, 0, 0);
+
     outline:none;
 }
 .accordion{
@@ -1112,8 +1115,8 @@ label {
         font-size:100%
     }
     .section .eduu{
-       font-size: 140%;
-       max-width: 100%;
+        font-size: 140%;
+        max-width: 100%;
     }
     .section .exppp{
         font-size: 170%;
