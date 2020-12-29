@@ -786,7 +786,7 @@ label {
 
 .container .box .learn {
     border-radius: 0 0 8px 8px;
-    background-color: rgb(99, 115, 134);
+    background-color: rgba(14, 59, 116, 0.404);
     display: flex;
     font-family: "Verdana";
     align-items: center;
@@ -799,7 +799,7 @@ label {
 
 }
 .container .box:hover .learn{
-    background-color: rgb(185, 185, 185);
+    background-color: rgba(150, 160, 182, 0.616);
     
 }
 .container .box .more{
@@ -816,8 +816,8 @@ label {
     transform: scaleY(1);
 }
 .container .box:hover .bbbb{
-    color: rgb(99, 115, 134);
-    border-color: rgb(99, 115, 134);
+    color: rgb(224, 227, 230);
+    border-color: rgb(0, 0, 0);
 }
 
 .container .box .exp_box
