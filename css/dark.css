@@ -45,6 +45,7 @@ html{
 }
 
 .nav-list li{
+    font-size: 90%;
     list-style: none;
     padding: 26px 30px;
 }
@@ -172,14 +173,14 @@ border-radius: 9px;
 }
 
 .text-big{
-    font-size: 180%;
+    font-size: 165%;
     padding: 10px 0px;
-     color:rgb(153, 151, 156);
+    color:rgb(153, 151, 156);
 }
 
 .text-small{
-     color:rgb(114, 113, 116);
-    font-size: 18px;
+    color:rgb(114, 113, 116);
+    font-size: 17px;
     padding-bottom: 5px;
 }
 
@@ -187,7 +188,8 @@ border-radius: 9px;
     margin-top: 31px;
     padding: 8px 20px;
     margin: 7px 4px;
-    border:  2px solid rgb(57, 107, 136);
+    height: 32px;
+    border:  1.5px solid rgb(57, 107, 136);
     border-radius: 1px;
     background: none;
     color:rgb(153, 151, 156);
@@ -195,6 +197,7 @@ border-radius: 9px;
 }
 .btn:hover{
     color: white;
+    background:rgb(0, 0, 0);
 }
 
 .btn-sm{
@@ -450,6 +453,7 @@ label {
     padding: 8px 8px;
     color: rgb(83, 123, 255);
     cursor: pointer;
+    height: 28px;
     outline:none;
 }
 
@@ -457,6 +461,7 @@ label {
     background-color:rgb(83, 83, 83);
     border-radius: 400px 0px 0px 400px;
     margin-top: 20px;
+    height: 28px;
     padding: 8px 8px;
     border: 0px;
     color: rgb(0, 0, 0);
@@ -819,12 +824,14 @@ label {
 {
     position: relative;
     overflow: hidden;
+    height: 85%;
     box-shadow: 0 0 15px rgba(0, 0,0, 0.7);
 }
 .container .box .exp_box1
 {
     position: relative;
     overflow: hidden;
+    height: 85%;
     background: rgb(7, 11, 32);
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
@@ -834,6 +841,7 @@ label {
 {
     position: relative;
     overflow: hidden;
+    height: 85%;
     background: rgb(8, 8, 8);
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
@@ -842,6 +850,7 @@ label {
 {
     position: relative;
     overflow: hidden;
+    height: 85%;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
 }
@@ -849,6 +858,7 @@ label {
 {
     position: relative;
     overflow: hidden;
+    height: 85%;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
 }
@@ -856,6 +866,7 @@ label {
 {
     position: relative;
     overflow: hidden;
+    height: 85%;
     background: rgb(0, 0, 0);
     box-shadow: 0 0 10px rgba(0, 0,0, 0.7);
     border-radius: 3px;
@@ -1112,7 +1123,7 @@ label {
         font-size: 120%;
     }
     .text-small{
-        font-size:100%
+        font-size:110%
     }
     .section .eduu{
         font-size: 140%;
