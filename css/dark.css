@@ -37,6 +37,7 @@ html{
 }
 
 .nav-list{
+    margin-left: -4%;
     width: 80%;
     font-size: 97%;
     display: flex;
@@ -209,15 +210,15 @@ border-radius: 9px;
     background-color: #080808;
 }
 .section{
-     display: flex;
-     align-items: center;
-     justify-content: space-evenly;
-     background-size: cover;
-     background-color: #080808;
-     max-width: 70%;
-     margin: auto;
-     font-family: 'Ubuntu', sans-serif;
-     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-color: #080808;
+    max-width: 70%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
 }
 
 
@@ -441,8 +442,15 @@ label {
     padding-bottom: 0.7%;
     transition: 0.8s;
     background: rgba(115, 175, 177, 0.13);
-    
 }
+.collapse_L {
+    padding-bottom: 0px;
+    transition: 0.8s;
+    transition: ease-out;
+    background: rgba(115, 175, 177, 0.13);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
 .btn-dark {
     color: white;
     margin-left: -6px;
@@ -450,10 +458,10 @@ label {
     background-color: #080808;
     border:0px;
     margin-top: 20px;
-    padding: 8px 8px;
+    padding: 6px 6px;
     color: rgb(83, 123, 255);
     cursor: pointer;
-    height: 28px;
+    height: 25px;
     outline:none;
 }
 
@@ -461,8 +469,8 @@ label {
     background-color:rgb(83, 83, 83);
     border-radius: 400px 0px 0px 400px;
     margin-top: 20px;
-    height: 28px;
-    padding: 8px 8px;
+    height: 25px;
+    padding: 6px 6px;
     border: 0px;
     color: rgb(0, 0, 0);
 
@@ -471,7 +479,7 @@ label {
 .accordion{
     margin-top: 1.4%;
     width: 100%;
-    background-color: rgb(59, 59, 58);
+    background-color: black;
     margin-bottom: 10%;
     font-size: 120%;
     transition: ease-in-out;
